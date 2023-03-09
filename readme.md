@@ -41,8 +41,7 @@ Incase you need some other functions, try each of these cases :
 to enable the tray we have the default logo, but if you need yours here you could customize:
 
 ```
-prEngine.setLogo(new File("somefile.png"));
-prEngine.setLogoVisibility(false);
+prEngine.setLogo(new File("somefile.png"), true);
 ```
 
 ### Case 02: Choosing another path
