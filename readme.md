@@ -17,8 +17,7 @@ We made this for java anthusiast... so use it accordingly! But if you need more 
 
 ## How to Use:
 
-1) Grab the last release jar 
-https://github.com/fgroupindonesia/printscreen/releases
+1) Grab the [last release jar](https://github.com/fgroupindonesia/printscreen/releases) 
 
 2) Run the following code:
 
@@ -36,7 +35,7 @@ prEngine.setSnippingMode(true);
 prEngine.takeCapture();
 ```
 
-Incase you need some other functions, try these :
+Incase you need some other functions, try each of these cases :
 
 ### Case 01: Customizing The Tray Logo
 to enable the tray we have the default logo, but if you need yours here you could customize:
