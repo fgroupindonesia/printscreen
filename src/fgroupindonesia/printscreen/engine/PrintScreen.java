@@ -1,5 +1,7 @@
 package fgroupindonesia.printscreen.engine;
 
+import fgroupindonesia.printscreen.EngineStates;
+import fgroupindonesia.printscreen.MainArea;
 import fgroupindonesia.printscreen.ScreenshotTaker;
 import java.io.File;
 
@@ -15,23 +17,32 @@ public class PrintScreen {
         GREYSCALE
     };
 
-   
-    
     public void start() {
-            
+        // this will run the tray only
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                
+                mainArea = new MainArea(staker);
+                mainArea.setVisible(false);
+                staker.setReferenceMainArea(mainArea);
+                
+            }
+        });
     }
 
-    public void setImageFormat(PSImageFormat pf){
+    public void setImageFormat(PSImageFormat pf) {
         EngineStates.imageformat = pf;
     }
-    
+
+    MainArea mainArea;
+    ScreenshotTaker staker = new ScreenshotTaker();
+
     public void takeCapture() {
-        ScreenshotTaker taker = new ScreenshotTaker();
 
         if (!isSnippingMode()) {
-            taker.screenshotEntireScreen();
+            staker.screenshotEntireScreen();
         } else {
-            taker.screenshotSnipScreen();
+            staker.screenshotSnipScreen();
         }
     }
 
@@ -41,6 +52,10 @@ public class PrintScreen {
 
     public void setSnippingMode(boolean b) {
         EngineStates.snipping_mode = b;
+    }
+
+    public void setLogoVisibility(boolean b) {
+        EngineStates.logo_visibility = b;
     }
 
     public void setLogo(File fileAbsolutePath) {
@@ -53,10 +68,23 @@ public class PrintScreen {
 
     public void setAlwaysAskDirectory(boolean b) {
         EngineStates.always_ask_directory = b;
+
+    }
+
+    public boolean isAlwaysAskDirectory() {
+        return EngineStates.always_ask_directory;
     }
 
     public boolean isAutoCleanup() {
         return EngineStates.auto_cleanup;
+    }
+
+    public void setOpenSavedDirectoryFeature(boolean n) {
+        EngineStates.open_saved_directory = n;
+    }
+
+    public boolean isOpenSavedDirectoryFeature() {
+        return EngineStates.open_saved_directory;
     }
 
     public void setAutoCleanup(boolean b) {

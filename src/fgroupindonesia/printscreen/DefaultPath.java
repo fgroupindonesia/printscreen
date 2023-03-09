@@ -8,6 +8,6 @@ import java.io.File;
  * @author staff
  */
 public class DefaultPath {
-     static final String systemLocation = System.getenv("APPDATA") + File.separator + "javaprintscreen";
+    public static final String systemLocation = System.getenv("APPDATA") + File.separator + "javaprintscreen";
    
 }

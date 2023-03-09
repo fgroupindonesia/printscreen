@@ -8,33 +8,51 @@ import java.awt.Rectangle;
 import java.io.File;
 import javax.swing.JFrame;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 /**
  *
  * @author staff
  */
 public class MainArea extends javax.swing.JFrame {
 
-    public MainArea() {
+    public MainArea(ScreenshotTaker sctaker) {
         initComponents();
+        
+        this.setScreenshotTaker(sctaker);
         start();
-        showTooltip();
+
+        if (EngineStates.logo_visibility) {
+
+            if (EngineStates.logo_absolute_path != null) {
+                // we use the user picture
+                if (EngineStates.logo_absolute_path.exists()) {
+                    showCustomTooltip();
+                } else {
+                    showDefaultTooltip();
+                }
+            } else {
+                // we use the default one
+                showDefaultTooltip();
+            }
+
+        }
     }
 
     DrawSketch drawS = null;
+    ScreenshotTaker staker = null;
 
+    public void setScreenshotTaker(ScreenshotTaker sctaker){
+        staker = sctaker;
+    }
+    
     public void start() {
         this.setVisible(true);
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
         if (drawS == null) {
-            drawS = new DrawSketch(this);
+            drawS = new DrawSketch(this, staker);
             Container cPane = this.getContentPane();
             cPane.add(drawS);
-        }else{
+        } else {
             drawS.clearAll();
         }
 
@@ -45,7 +63,11 @@ public class MainArea extends javax.swing.JFrame {
 
     String lokasiImage = DefaultPath.systemLocation + File.separator + "logo.png";
 
-    public void showTooltip() {
+    public void showCustomTooltip() {
+        trayna = new TrayIconMaker(EngineStates.logo_absolute_path, this);
+    }
+
+    public void showDefaultTooltip() {
         trayna = new TrayIconMaker(new File(lokasiImage), this);
     }
 
@@ -128,7 +150,8 @@ public class MainArea extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainArea().setVisible(true);
+                // dont run on this file
+                // new MainArea(null).setVisible(true);
             }
         });
     }

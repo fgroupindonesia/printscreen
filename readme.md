@@ -25,13 +25,12 @@ We made this for java anthusiast... so use it accordingly! But if you need more 
 import fgroupindonesia.printscreen.engine.*;
 
 PrintScreen psEngine = new PrintScreen();
-psEngine.start();
 
-// if you need to screencapture whole without marking
+// 1st if you need to screencapture with snipping
 psEngine.takeCapture();
 
-// if you need to screencapture with snipping
-psEngine.setSnippingMode(true);
+// or 2nd if you need to screencapture without snipping
+psEngine.setSnippingMode(false);
 psEngine.takeCapture();
 ```
 
@@ -41,7 +40,11 @@ Incase you need some other functions, try each of these cases :
 to enable the tray we have the default logo, but if you need yours here you could customize:
 
 ```
-psEngine.setLogo(new File("somefile.png"), true);
+// here if you want to customize the icon
+psEngine.setLogo(new File("somefile.png"));
+
+// but also if you dont want to show the icon on tray
+psEngine.setLogoVisibility(false);
 ```
 
 ### Case 02: Choosing another path
@@ -77,11 +80,13 @@ psEngine.setImageFormat(PSImageFormat.JPG);
 
 ```
 
+as FYI the default is the PNG format.
+
 ### Case 04: Snipping Mode
 
 As default the snipping mode is always to be true. Otherwise, you could switch it to take entire screen for every printscreen's task .
 ``` 
-// this will make the app work for taking screenshot entire screen
+// this will make the app work for taking screenshot entire screen instead of snipping
 psEngine.setSnippingMode(false);
 ```
 
@@ -103,6 +108,30 @@ as we all know, this feature is *True* by default. Incase you want to turn it of
 ```
 psEngine.setCopyToClipboard(false);
 ```
+
+Okay, you may try Pressing (CTRL + V) after taking screenshot to see the picture!
+
+
+### Case 07: Disable the opening saved directory 
+FYI, this feature is *True* by default. Incase you want to turn it off just use :
+
+```
+psEngine.setOpenSavedDirectoryFeature(false);
+```
+
+
+
+### Want to explore the real examples?
+Sure here we go:
+- *Example 1* : run the default quick run!
+- *Example 2* : run the entirescreen screenshot taking & copy-paste from clipboard
+- *Example 3* : run the snipping screenshot taking & ask the user where to save
+- *Example 4* : run the snipping screenshot taking & save to custom path (programatically)
+- *Example 5* : run the tray only until the user clicking the menu for screenshot
+
+
+
+
 
 That's it...! Feel free to use this into your projects.... and dont forget to contact / hire our Software Developer at several social medias for better future with the best technology:
 

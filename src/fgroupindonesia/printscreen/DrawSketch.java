@@ -18,13 +18,15 @@ import javax.swing.JPanel;
 
 public class DrawSketch extends JPanel implements MouseMotionListener {
 
+    ScreenshotTaker sctaker;
     JFrame jframe;
     public int x1, x2, y1, y2;
 
-    public DrawSketch(JFrame ref) {
+    public DrawSketch(JFrame ref, ScreenshotTaker staker) {
 
         jframe = ref;
-
+        sctaker = staker;
+        
         addMouseMotionListener(new MouseMotionAdapter() {
 
             @Override
@@ -61,8 +63,9 @@ public class DrawSketch extends JPanel implements MouseMotionListener {
                 repaint();
 
                 try {
-                    new ScreenshotTaker(jframe).take(x1, y1, x2-x1, y2-y1);
+                    sctaker.take(x1, y1, x2-x1, y2-y1);
                 } catch (Exception ex) {
+                    ex.printStackTrace();
                     System.err.println("Error at screenshot! " + ex.getMessage());
                 }
             }
