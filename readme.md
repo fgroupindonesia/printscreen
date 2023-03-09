@@ -140,9 +140,12 @@ Sure here we go:
 
 ### Thanks!
 
-That's it...! Feel free to use this into your projects.... and dont forget to contact / hire our Software Developer at several social medias for better future with the best technology:
+That's it...! Feel free to use this into your projects.... 
+and if you want to integrate other similar functions for your Software, grab our Leading Experts on social medias for better future with the best technology:
 
 - [LinkedIn](https://id.linkedin.com/in/gumuruh)
 - [Projects](https://projects.co.id/public/browse_users/view/250512/gumuruh)
+
+Thanks everyone! :raising_hand_man:
 
 © 2023 - FGroupIndonesia.
