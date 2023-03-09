@@ -11,6 +11,14 @@ You could customize almost everything such as:
 - the cleanup (cache)
 - the copy-to-clipboard (automatically)
 
+Lovely yes...
+
+| Requirement   | Details       | Stability 				|
+| ------------- |:-------------:| :-----------------------:	|
+| JDK	       	| 1.8 			| :heavy_check_mark: 		|
+| OS      		| Windows      	| :heavy_check_mark: 		|
+| Size			| 52 kb      	| :heavy_heart_exclamation: |
+
 We made this for java anthusiast... so use it accordingly! But if you need more customization, feel free to post into the discussion [*issues* sections!](https://github.com/fgroupindonesia/printscreen/issues)
 
 
