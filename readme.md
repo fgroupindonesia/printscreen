@@ -24,15 +24,15 @@ We made this for java anthusiast... so use it accordingly! But if you need more 
 ```
 import fgroupindonesia.printscreen.*;
 
-PrintScreen prEngine = new PrintScreen();
-prEngine.start();
+PrintScreen psEngine = new PrintScreen();
+psEngine.start();
 
 // if you need to screencapture whole without marking
-prEngine.takeCapture();
+psEngine.takeCapture();
 
 // if you need to screencapture with snipping
-prEngine.setSnippingMode(true);
-prEngine.takeCapture();
+psEngine.setSnippingMode(true);
+psEngine.takeCapture();
 ```
 
 Incase you need some other functions, try each of these cases :
@@ -41,7 +41,7 @@ Incase you need some other functions, try each of these cases :
 to enable the tray we have the default logo, but if you need yours here you could customize:
 
 ```
-prEngine.setLogo(new File("somefile.png"), true);
+psEngine.setLogo(new File("somefile.png"), true);
 ```
 
 ### Case 02: Choosing another path
@@ -49,10 +49,10 @@ to help the printscreen save to some other directory you could use these steps:
 
 ```
 // this will automatically save to that path
-prEngine.setDirectoryPath("D:\\somedir");
+psEngine.setDirectoryPath("D:\\somedir");
 
 // or you could also make asking-directory-mode for saving
-prEngine.setAlwaysAskDirectory(true);
+psEngine.setAlwaysAskDirectory(true);
 
 ```
 
@@ -72,7 +72,7 @@ Some cases need to switch between JPG or PNG or even grayscale for better purpos
 // PSImageFormat.GREYSCALE or
 // PSImageFormat.PNG
 
-prEngine.setImageFormat(PSImageFormat.JPG);
+psEngine.setImageFormat(PSImageFormat.JPG);
 
 ```
 
@@ -81,7 +81,7 @@ prEngine.setImageFormat(PSImageFormat.JPG);
 As default the snipping mode is always to be true. Otherwise, you could switch it to take entire screen for every printscreen's task .
 ``` 
 // this will make the app work for taking screenshot entire screen
-prEngine.setSnippingMode(false);
+psEngine.setSnippingMode(false);
 ```
 
 ### Case 05: Cleanup Cache
@@ -93,14 +93,14 @@ C://users/AppData/Roaming/fgroupindonesia/printscreen/cache/
 
 to clean up those files, you could easily...
 ``` 
-prEngine.setAutoCleanup(true);
+psEngine.setAutoCleanup(true);
 ```
 
 ### Case 06: Copy to Clipboard (automatically)
 as we all know, this feature is *True* by default. Incase you want to turn it off just use :
 
 ```
-prEngine.setCopyToClipboard(false);
+psEngine.setCopyToClipboard(false);
 ```
 
 That's it...! Feel free to use this into your projects.... and dont forget to contact / hire our Software Developer at several social medias for better future with the best technology:
