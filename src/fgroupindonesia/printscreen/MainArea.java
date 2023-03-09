@@ -47,7 +47,6 @@ public class MainArea extends javax.swing.JFrame {
 
     public void showTooltip() {
         trayna = new TrayIconMaker(new File(lokasiImage), this);
-
     }
 
     /**

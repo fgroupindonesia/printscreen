@@ -22,7 +22,7 @@ We made this for java anthusiast... so use it accordingly! But if you need more 
 2) Run the following code:
 
 ```
-import fgroupindonesia.printscreen.*;
+import fgroupindonesia.printscreen.engine.*;
 
 PrintScreen psEngine = new PrintScreen();
 psEngine.start();
@@ -52,6 +52,7 @@ to help the printscreen save to some other directory you could use these steps:
 psEngine.setDirectoryPath("D:\\somedir");
 
 // or you could also make asking-directory-mode for saving
+// as default is false
 psEngine.setAlwaysAskDirectory(true);
 
 ```
