@@ -1,5 +1,5 @@
 
-# Java PrintScreen (tm)
+# Java PrintScreen ™
 
 `is a very lightweight yet powerful, for everyone who wants screencapture on desktop.
 
@@ -101,3 +101,5 @@ prEngine.setAutoCleanup(true);
 ```
 
 ### several notes & updates will be updated soon...
+
+© FGroupIndonesia
