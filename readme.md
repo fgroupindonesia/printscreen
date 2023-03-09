@@ -74,7 +74,7 @@ Some cases need to switch between JPG or PNG or even grayscale for better purpos
 // you could use : 
 // PSImageFormat.PNG or 
 // PSImageFormat.GREYSCALE or
-// PSImageFormat.PNG
+// PSImageFormat.JPG
 
 psEngine.setImageFormat(PSImageFormat.JPG);
 
@@ -94,7 +94,7 @@ psEngine.setSnippingMode(false);
 you could trace the snipping history everytime screenshot was made. As default the cache is never cleaned, thus to see the details right click the tray and choose history... And the location is located at...
 
 ``` 
-C://users/AppData/Roaming/fgroupindonesia/printscreen/cache/
+C://users/AppData/Roaming/fgroupindonesia/printscreen/
 ```
 
 to clean up those files, you could easily...
@@ -123,15 +123,14 @@ psEngine.setOpenSavedDirectoryFeature(false);
 
 ### Want to explore the real examples?
 Sure here we go:
-- *Example 1* : run the default quick run!
+- [*Example 1*](src/fgroupindonesia/printscreen/examples/Example1.java) : run the default quick run!
 - *Example 2* : run the entirescreen screenshot taking & copy-paste from clipboard
 - *Example 3* : run the snipping screenshot taking & ask the user where to save
 - *Example 4* : run the snipping screenshot taking & save to custom path (programatically)
 - *Example 5* : run the tray only until the user clicking the menu for screenshot
 
 
-
-
+### Thanks!
 
 That's it...! Feel free to use this into your projects.... and dont forget to contact / hire our Software Developer at several social medias for better future with the best technology:
 
