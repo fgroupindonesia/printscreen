@@ -124,10 +124,10 @@ psEngine.setOpenSavedDirectoryFeature(false);
 ### Want to explore the real examples?
 Sure here we go:
 - [*Example 1*](src/fgroupindonesia/printscreen/examples/Example1.java) : run the default quick run!
-- *Example 2* : run the entirescreen screenshot taking & copy-paste from clipboard
-- *Example 3* : run the snipping screenshot taking & ask the user where to save
-- *Example 4* : run the snipping screenshot taking & save to custom path (programatically)
-- *Example 5* : run the tray only until the user clicking the menu for screenshot
+- [*Example 2*](src/fgroupindonesia/printscreen/examples/Example2.java) : run the entirescreen screenshot taking & copy-paste from clipboard
+- [*Example 3*](src/fgroupindonesia/printscreen/examples/Example3.java) : run the snipping screenshot taking & ask the user where to save
+- [*Example 4*](src/fgroupindonesia/printscreen/examples/Example4.java) : run the snipping screenshot taking & save to custom path (programatically)
+- [*Example 5*](src/fgroupindonesia/printscreen/examples/Example5.java) : run the tray only until the user clicking the menu for screenshot
 
 
 ### Thanks!
