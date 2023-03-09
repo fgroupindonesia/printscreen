@@ -3,7 +3,7 @@
 
 `is a very lightweight yet powerful, for everyone who wants screencapture on desktop.
 
-## Feature :
+## Features :
 You could customize almost everything such as:
 - the logo (tray)
 - the location (saving path)
@@ -11,7 +11,7 @@ You could customize almost everything such as:
 - the cleanup (cache)
 - the copy-to-clipboard (automatically)
 
-Lovely yes...
+And yes please take note....
 
 | Requirement   | Details       | Stability 				|
 | ------------- |:-------------:| :-----------------------:	|
