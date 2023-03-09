@@ -56,9 +56,7 @@ prEngine.setAlwaysAskDirectory(true);
 
 ```
 
-Why should we use alwaysAskDirectory? Because some users love to save it into different directory each time printscreen's taken.
-
-But where is the default path if nobody change the path?
+Why should we use *alwaysAskDirectory?* Because some users love to save it into different directory each time printscreen's taken. But where is the default path if nobody change the path?
 Here it goes...
 
 ``` 
