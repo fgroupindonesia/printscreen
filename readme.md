@@ -107,7 +107,7 @@ as we all know, this feature is *True* by default. Incase you want to turn it of
 prEngine.setCopyToClipboard(false);
 ```
 
-That's it...! Feel free to use this into your projects.... and dont forget to contact / hire our Developer at several social medias:
+That's it...! Feel free to use this into your projects.... and dont forget to contact / hire our Software Developer at several social medias for better future with the best technology:
 
 - [LinkedIn](https://id.linkedin.com/in/gumuruh)
 - [Projects](https://projects.co.id/public/browse_users/view/250512/gumuruh)
