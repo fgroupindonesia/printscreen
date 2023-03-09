@@ -11,9 +11,9 @@ You could customize almost everything such as:
 - the cleanup (cache)
 - the copy-to-clipboard (automatically)
 
-We made this for java anthusiast... so use it accordingly! But if you need more customization, feel free to post into the discussion *issues* sections!
+We made this for java anthusiast... so use it accordingly! But if you need more customization, feel free to post into the discussion [*issues* sections!](https://github.com/fgroupindonesia/printscreen/issues)
 
-https://github.com/fgroupindonesia/printscreen/issues
+
 
 ## How to Use:
 
@@ -100,6 +100,16 @@ to clean up those files, you could easily...
 prEngine.setAutoCleanup(true);
 ```
 
-### several notes & updates will be updated soon...
+### Case 06: Copy to Clipboard (automatically)
+as we all know, this feature is *True* by default. Incase you want to turn it off just use :
 
-© FGroupIndonesia
+```
+prEngine.setCopyToClipboard(false);
+```
+
+That's it...! Feel free to use this into your projects.... and dont forget to contact / hire our Developer at several social medias:
+
+- [LinkedIn](https://id.linkedin.com/in/gumuruh)
+- [Projects](https://projects.co.id/public/browse_users/view/250512/gumuruh)
+
+© 2023 - FGroupIndonesia.
