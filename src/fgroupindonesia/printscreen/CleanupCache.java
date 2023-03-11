@@ -4,8 +4,12 @@ import java.io.File;
 import java.util.ArrayList;
 
 /**
- *
- * @author staff
+ * System : JavaPrintScreen
+ * Description : 
+ * This file will help us to clear every cache 
+ * once the screenshot image was taken.
+ * 
+ * @author fgroupindonesia
  */
 public class CleanupCache {
 

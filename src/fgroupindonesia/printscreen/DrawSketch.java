@@ -10,11 +10,17 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 import java.awt.event.MouseMotionListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
+/*
+ * System : JavaPrintScreen
+ * Description : 
+ * This file is used to track the coordinates 
+ * while doing snipping (drag & release the mouse).
+ *
+ */
 
 public class DrawSketch extends JPanel implements MouseMotionListener {
 

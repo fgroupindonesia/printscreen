@@ -5,6 +5,8 @@ import fgroupindonesia.printscreen.engine.PrintScreen;
 import java.io.File;
 
 /**
+ * System : JavaPrintScreen
+ * Description : 
  * This example will do several things:
  * a. run the app from tray
  * 

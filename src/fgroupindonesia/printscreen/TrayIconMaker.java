@@ -1,6 +1,5 @@
 package fgroupindonesia.printscreen;
 
-import java.awt.AWTException;
 import java.awt.MenuItem;
 import java.awt.PopupMenu;
 import java.awt.SystemTray;
@@ -12,10 +11,15 @@ import java.io.File;
 import java.io.InputStream;
 import java.nio.file.Files;
 
-/**
+/*
+ * System : JavaPrintScreen
+ * Description : 
+ * This file is used to make the tray icon
  *
- * @author staff
+ * @author fgroupindonesia
+ *
  */
+
 public class TrayIconMaker {
     
     File logoFile;

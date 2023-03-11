@@ -1,16 +1,15 @@
 package fgroupindonesia.printscreen;
 
 import java.awt.Container;
-import java.awt.Cursor;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
 import java.io.File;
 import javax.swing.JFrame;
 
-/**
+/*
+ * System : JavaPrintScreen
+ * Description : 
+ * This file is the main frame used as a canvas (transparent)
+ * for DrawSketch to make a rectangular object while snipping..
  *
- * @author staff
  */
 public class MainArea extends javax.swing.JFrame {
 

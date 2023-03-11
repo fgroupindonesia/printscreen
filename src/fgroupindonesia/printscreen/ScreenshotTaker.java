@@ -19,10 +19,16 @@ import java.io.FileOutputStream;
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-/**
+/*
+ * System : JavaPrintScreen
+ * Description : 
+ * This file is used to record the screen and cropping the image,
+ * helping the user to choose directory, and so on.
  *
- * @author staff
+ * @author fgroupindonesia
+ *
  */
+
 public class ScreenshotTaker implements ClipboardOwner {
 
     MainArea jframe;

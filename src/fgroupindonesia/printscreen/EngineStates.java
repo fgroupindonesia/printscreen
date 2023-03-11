@@ -4,9 +4,12 @@ import fgroupindonesia.printscreen.DefaultPath;
 import fgroupindonesia.printscreen.engine.PrintScreen;
 import java.io.File;
 
-/**
+/*
+ * System : JavaPrintScreen
+ * Description : 
+ * This file is used store the static values
+ * of each configuration called throughout the library.
  *
- * @author staff
  */
 public class EngineStates {
 

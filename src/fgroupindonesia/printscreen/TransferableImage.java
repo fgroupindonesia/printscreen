@@ -7,10 +7,15 @@ import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 
-/**
+/*
+ * System : JavaPrintScreen
+ * Description : 
+ * This file is used to enable the copy to clipboard features
  *
- * @author staff
+ * @author fgroupindonesia
+ *
  */
+
 public class TransferableImage implements Transferable {
     Image i;
     

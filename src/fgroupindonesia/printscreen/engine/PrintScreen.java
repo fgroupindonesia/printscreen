@@ -6,7 +6,12 @@ import fgroupindonesia.printscreen.ScreenshotTaker;
 import java.io.File;
 
 /**
- *
+ * System : JavaPrintScreen
+ * Description : 
+ * This file will help everyone for using the library
+ * just as mentioned in github readme file.
+ * https://github.com/fgroupindonesia/printscreen
+ * 
  * @author fgroupindonesia
  */
 public class PrintScreen {

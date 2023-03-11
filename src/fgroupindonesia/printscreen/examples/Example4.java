@@ -4,6 +4,8 @@ package fgroupindonesia.printscreen.examples;
 import fgroupindonesia.printscreen.engine.PrintScreen;
 
 /**
+ * System : JavaPrintScreen
+ * Description : 
  * This example will do several things:
  * a. taking screenshot snipping
  * b. set the directory location programatically

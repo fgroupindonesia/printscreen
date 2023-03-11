@@ -4,6 +4,8 @@ package fgroupindonesia.printscreen.examples;
 import fgroupindonesia.printscreen.engine.PrintScreen;
 
 /**
+ * System : JavaPrintScreen
+ * Description : 
  * This example will do quick things:
  * a. taking screenshot snipping mode
  * b. open the path image saved
