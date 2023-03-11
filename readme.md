@@ -148,6 +148,9 @@ and if you want to integrate other similar functions for your Software, grab our
 - [LinkedIn](https://id.linkedin.com/in/gumuruh)
 - [Projects](https://projects.co.id/public/browse_users/view/250512/gumuruh)
 
+If you want to contribute in different languages / platform. 
+Please fork it out and let me know for it...
 Thanks everyone! :raising_hand_man:
+
 
 © 2023 - FGroupIndonesia.
