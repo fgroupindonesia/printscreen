@@ -1,6 +1,8 @@
 
 # Java PrintScreen ™
 
+![Logo](src/fgroupindonesia/images/logo.png)
+
 `is a very lightweight yet powerful, for everyone who wants screencapture on desktop.
 
 ## Features :
