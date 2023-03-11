@@ -150,6 +150,7 @@ and if you want to integrate other similar functions for your Software, grab our
 
 If you want to contribute in different languages / platform. 
 Please fork it out and let me know for it...
+
 Thanks everyone! :raising_hand_man:
 
 
